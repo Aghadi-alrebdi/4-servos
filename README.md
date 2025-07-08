@@ -34,7 +34,6 @@ This demonstrates how you can programmatically control timing and angle position
 
 ## Created By  
 - **Student Name**: Aghadi Saleh Al-rebdi  
-- **University**: Qassim University  
 - **Department**: Computer Science  
 - **Year**: 2025  
 
