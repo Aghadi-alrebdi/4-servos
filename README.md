@@ -82,6 +82,36 @@ void loop() {
 
 }
 ```
+---
+## Pseudocode
+
+Start
+
+Attach servo1 to pin 2  
+Attach servo2 to pin 3  
+Attach servo3 to pin 4  
+Attach servo4 to pin 5  
+
+Record the current time as startTime  
+Set done = false  
+
+Loop forever:  
+- If not done AND less than 2 seconds have passed since startTime:  
+  - Sweep from 0° to 180°:  
+    - For pos from 0 to 180:  
+      - Move all servos to 'pos' degrees  
+      - Wait 5 milliseconds  
+      - If 2 seconds have passed since startTime, exit the sweep loop  
+  - Sweep from 180° back to 0°:  
+    - For pos from 180 down to 0:  
+      - Move all servos to 'pos' degrees  
+      - Wait 5 milliseconds  
+      - If 2 seconds have passed since startTime, exit the sweep loop  
+- Else if not done:  
+  - Move all servos to 90°  
+  - Set done = true  
+
+End loop
 
 ---
 
