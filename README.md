@@ -45,14 +45,11 @@ This demonstrates how you can programmatically control timing and angle position
 ```cpp
 #include <Servo.h>
 
-// Create servo objects
 Servo servo1, servo2, servo3, servo4;
 
-// Timing and control flags
 unsigned long startTime;
 bool done = false;
 
-// Function to move all servos together
 void moveAll(int angle) {
   servo1.write(angle);
   servo2.write(angle);
@@ -61,7 +58,6 @@ void moveAll(int angle) {
 }
 
 void setup() {
-  // Attach servos to pins
   servo1.attach(2);
   servo2.attach(3);
   servo3.attach(4);
