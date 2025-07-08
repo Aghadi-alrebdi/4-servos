@@ -96,5 +96,5 @@ void loop() {
 ## Project Screenshot  
 Below is a screenshot of the final 4-servo motor sweep control circuit created in Tinkercad:
 
-![Circuit Screenshot](4 servos.png)
+![Circuit Screenshot](Servos.png)
 
