@@ -32,13 +32,6 @@ This demonstrates how you can programmatically control timing and angle position
 
 ---
 
-## Created By  
-- **Student Name**: Aghadi Saleh Al-rebdi  
-- **Department**: Computer Science  
-- **Year**: 2025  
-
----
-
 ## Arduino Code
 
 ```cpp
@@ -97,3 +90,9 @@ Below is a screenshot of the final 4-servo motor sweep control circuit created i
 
 ![Circuit Screenshot](Servos.png)
 
+---
+
+## Created By  
+- **Name**: Aghadi Saleh Al-rebdi   
+- **Department**: Computer Science  
+- **Year**: 2025  
